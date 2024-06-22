@@ -1,6 +1,4 @@
 button{
-    background-color: black;
-    color: white;
     cursor: pointer;
     font-size: 28px;
     width:400px;
@@ -10,18 +8,6 @@ button{
     left: 25px;
     transition: background-color 0.5s;
 }
-button:hover{
-    background-color: white;
-    color:black;
-}
-
-body{
-    background-color: black;
-    color: white;
-}
-
-
-
 
 .app{
     word-spacing: 120px;
