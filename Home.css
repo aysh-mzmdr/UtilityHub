@@ -1,0 +1,50 @@
+button{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    font-size: 28px;
+    width:400px;
+    position: relative;
+    top:80px;
+    left: 25px;
+}
+body{
+    background-color: black;
+    color: white;
+}
+
+
+
+
+.app{
+    word-spacing: 120px;
+}
+
+.intro{
+    text-align: center;
+}
+
+#welcome{
+    font-size: 75px;
+}
+
+
+
+
+
+@keyframes colorChange{
+    0% {
+        color:black;
+    }
+    50% {
+        color:white;
+    }
+    100% {
+        color:black;
+    }
+}
+#subtitle{
+    padding-top: 45px;
+    font-size: 35px;
+    animation: colorChange 5s infinite;
+}
