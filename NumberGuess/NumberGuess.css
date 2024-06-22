@@ -1,0 +1,72 @@
+body{
+    background-color: rgb(13, 53, 0);
+    font-style: bold;
+}
+button {
+    position: relative;
+    left:175px;
+    padding-left:40px ;
+    padding-right: 40px;
+    padding-top: 8px;
+    padding-bottom:8px ;
+    background-color: black;
+    color:white;
+    font-size: 20px;
+    border-radius: 20px;
+    transition: background-color 0.5s;
+}
+button:hover {
+    background-color: red;
+    color:black;
+}
+
+.accept {
+    font-size:25px;
+    color:white;
+}
+#max{
+    position: relative;
+    left:50px;
+    padding: 7px;
+    font-size: 15px;
+    background-color: black;
+    color:red;
+    transition: background-color 0.25s;
+}
+#min{
+    position: relative;
+    left:52.7px;
+    padding: 7px;
+    font-size: 15px;
+    background-color: black;
+    color:red;
+    transition: background-color 0.25s;
+}
+#max:hover {
+    background-color: red;
+    color:black;
+}
+#min:hover {
+    background-color: red;
+    color:black;
+}
+@keyframes appear {
+    0% {
+        color: rgb(13, 53, 0);
+    }
+    20% {
+        color: rgb(13, 53, 0);
+    }
+    50% {
+        color:white;
+    }
+    75% {
+        color:  rgb(13, 53, 0);
+    }
+    100% {
+        color:  rgb(13, 53, 0);
+    }
+}
+#correct {
+    animation: appear 10s forwards;
+}
