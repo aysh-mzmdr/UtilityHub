@@ -21,9 +21,15 @@ button{
     font-size: 75px;
 }
 
-
-
-
+#theme{
+    width:60px;
+    height:40px;
+    top:10px;
+    left:1440px;
+    border-radius: 25px;
+    background-color: black;
+    padding-bottom: 40px;
+}
 
 @keyframes colorChange{
     0% {
