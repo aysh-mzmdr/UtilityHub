@@ -21,7 +21,7 @@ async function fetchData(){
         }
 
         const pokeData=await response.json();
-        document.getElementById("name").textContent=firstCharFixer(search);
+        document.getElementById("name").textContent=firstCharFixer(pokeData.name);
         let id=pokeData.id;
         document.getElementById("id").textContent="ID No. :"+id;
 
