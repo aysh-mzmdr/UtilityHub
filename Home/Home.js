@@ -1,8 +1,6 @@
-const TempConvertor=document.getElementById("TempConvertor");
-const Stopwatch=document.getElementById("Stopwatch");
-const NumberGuess=document.getElementById("NumberGuess");
+const apps=["TempConvertor","Stopwatch","NumberGuess","Pokedex"]
 
-const arrApp=[TempConvertor,Stopwatch,NumberGuess];
+const arrApp=apps.map(app => document.getElementById(app));
 
 document.body.style.backgroundColor="black";
 document.body.style.color="white";
@@ -65,14 +63,8 @@ theme.onclick=function(){
     }
 }
 
-TempConvertor.onclick=function(){
-    location.href="../TempConvertor/TempConvertor.html"
-}
 
-Stopwatch.onclick=function(){
-    location.href="../Stopwatch/stopwatch.html"
-}
-
-NumberGuess.onclick=function(){
-    location.href="../NumberGuess/NumberGuess.html"
-}
+arrApp.forEach(app => app.onclick=function(){
+    app123=app.id;
+    location.href=`../${app123}/${app123}.html`;
+})
