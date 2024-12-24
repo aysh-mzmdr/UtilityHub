@@ -66,5 +66,5 @@ theme.onclick=function(){
 
 arrApp.forEach(app => app.onclick=function(){
     app123=app.id;
-    location.href=`../${app123}/${app123}.html`;
+    location.href=`./${app123}/${app123}.html`;
 })
